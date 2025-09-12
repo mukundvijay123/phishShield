@@ -14,7 +14,7 @@ server.config["SESSION_PERMANENT"] = False
 server.config["SESSION_TYPE"] = "filesystem"
 Session(server)
 
-client = MongoClient("mongodb+srv://nithya3169:6sV97gWqdcKFtAru@cluster0phish.0qs5f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0Phish")
+client = MongoClient("Enter_MongoDB_Connection_Link_here")
 data_base = client["test"]
 
 # Supplementary functions
